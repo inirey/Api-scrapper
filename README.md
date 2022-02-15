@@ -6,3 +6,4 @@
 - Photooxry Scraper
 - Joox Scraper
 - Twitter Scraper
+- Instagram Scraper
