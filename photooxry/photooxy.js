@@ -77,3 +77,5 @@ function gtaV(path_file) {
           }
      })
 }
+
+module.exports = { gtaV}
