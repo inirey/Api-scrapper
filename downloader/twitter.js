@@ -26,4 +26,4 @@ function twitter(url) {
     })
 }
 
-// module.export = ?
+module.exports = { twitter}
