@@ -1,4 +1,7 @@
-// BAA
+/*
+  © Made with By https://github.com/inirey
+*/
+
 const request = require("request");
 const cheerio = require("cheerio");
 
