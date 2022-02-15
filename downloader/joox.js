@@ -29,7 +29,7 @@ function joox(query) {
                                     mp3: res.mp3Url
                                 })
                                 Promise.all(promoses).then(() => resolve({
-                                    creator: "ariffb",
+                                    creator: "sekha",
                                     status: true,
                                     data: hasil,
                                 }))
