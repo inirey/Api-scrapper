@@ -1,3 +1,8 @@
+const cheerio = require('cheerio')
+const fetch = require('node-fetch')
+const axios = require("axios")
+const qs = require("qs")
+
 function joox(query) {
     return new Promise((resolve, reject) => {
         const time = Math.floor(new Date() / 1000)
