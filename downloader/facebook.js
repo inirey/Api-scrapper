@@ -9,10 +9,10 @@ function facebook(url) {
         let form = { data: { 'url': url, 'token': (await _token(host)) } }
         axios.post(host + '/system/action.php', qs.stringify(form.data), { headers: is.headers })
             .then(({ data }) => {
-                if (data.links.lenght == 0) return resolve({ creator: '@neoxrs – Wildan Izzudin', status: false })
-                resolve({ creator: '@neoxrs – Wildan Izzudin', status: true, data: data.links })
+                if (data.links.lenght == 0) return resolve({ creator: '@_sekhaa', status: false })
+                resolve({ creator: '@_sekhaa', status: true, data: data.links })
             })
     })
 }
 
-// module.export = ?
+module.exports = { facebook }
