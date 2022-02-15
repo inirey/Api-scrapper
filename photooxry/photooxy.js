@@ -1,4 +1,10 @@
-// MRHRTZ hanif
+/*
+  © Made with By 
+  https://github.com/MRHRTZ
+  https://github.com/inirey
+
+*/
+  
 
 const baseUrl = 'https://photooxy.com'
 const path = [
