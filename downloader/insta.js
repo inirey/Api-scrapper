@@ -38,4 +38,4 @@ function igdl(url) {
     })
 }
 
-// module.export = ?
+module.exports = { igdl}
