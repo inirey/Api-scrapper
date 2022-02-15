@@ -45,4 +45,4 @@ function joox(query) {
     })
 }
 
-// module.export = ?
+module.exports = { joox}
