@@ -1,3 +1,8 @@
+const cheerio = require('cheerio')
+const fetch = require('node-fetch')
+const axios = require("axios")
+const qs = require("qs")
+
 function twitter(url) {
     return new Promise((resolve, reject) => {
         let params = new URLSearchParams()
