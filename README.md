@@ -4,3 +4,5 @@
 - Facebook Scraper
 - Textprome Scraper
 - Photooxry Scraper
+- Joox Scraper
+- Twitter Scraper
