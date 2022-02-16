@@ -14,7 +14,7 @@ app.enable('trust proxy');
 app.set("json spaces",2)
 app.use(cors())
 app.use(secure)
-app.use(express.static("public"))
+app.use(express.static("anjay"))
 
 app.use('/', mainrouter);
 app.use('/api', apirouter);
