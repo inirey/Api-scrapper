@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')  
 }
 
-
+var creator = "Rey"
 var { color, bgcolor } = require(__path + '/lib/color.js');
 var { fetchJson } = require(__path + '/lib/fetcher.js');
 var options = require(__path + '/lib/options.js');
@@ -40,7 +40,7 @@ loghandler = {
         },
     error: {
         status: false,
-        creator: @sekhaa,
+        creator: `${creator}`,
         message: 'internal server error'
     }
 }
