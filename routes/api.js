@@ -62,7 +62,7 @@ router.get('/dl/facebook', async (req, res, next) => {
       res.json(error)
     });
 
-router.get('/download/tiktok', async (req, res, next) => {
+router.get('/dl/tiktok', async (req, res, next) => {
     var Apikey = req.query.apikey,
         url = req.query.url
 
